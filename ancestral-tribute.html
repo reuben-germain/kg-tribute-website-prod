@@ -13,7 +13,38 @@
     </script>
 </head>
 <body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
   <header>
+  <nav class="topnav" id="myTopnav" role="navigation" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="funeral.html">Funeral Service</a>
+    <a href="ancestral-tribute.html" class="active">Ancestral Tribute</a>
+    
+    <div class="dropdown">
+      <button class="dropbtn" aria-haspopup="true" aria-expanded="false">Gallery
+        <i class="fa fa-caret-down" aria-hidden="true"></i>
+      </button>
+      <div class="dropdown-content" role="menu">
+        <a href="solo-rasta.html" role="menuitem">Solo Rasta Gallery</a>
+        <a href="solo-pre-post-rasta.html" role="menuitem">Solo Pre-&-Post Rasta Gallery</a>
+        <a href="family-rasta.html" role="menuitem">Family Rasta Gallery</a>
+        <a href="family-pre-post-rasta.html" role="menuitem">Family Post Rasta Gallery</a>
+        <a href="friends-rasta.html" role="menuitem">Friends Rasta Gallery</a>
+        <a href="friends-pre-post-rasta.html" role="menuitem">Friends Post Rasta Gallery</a>
+      </div>
+    </div>
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()" aria-label="Toggle navigation menu">
+      &#9776;
+    </a>
+  </nav>
+
+  <button onclick="toggleTheme()" aria-label="Toggle dark/light theme" class="theme-toggle">🌓</button>
+</header>
+
+  <!-- <header>
         <nav class="topnav" id="myTopnav">
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
@@ -35,9 +66,9 @@
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </nav>
         <button onclick="toggleTheme()" aria-label="Toggle dark/light theme">🌓</button>
-    </header>
+    </header> -->
 
-    <main id="ancestral-tribute">
+    <main class="ancestral-tribute" id="main-content">
     <section class="intro">
       <h1>✨ We Remember Where We Come From ✨</h1>
       <p class="quote">
